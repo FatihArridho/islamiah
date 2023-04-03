@@ -20,11 +20,11 @@ export default function TafsirModal({surah, display}) {
       >
         <div>
           {/* Head */}
-          <div className="p-3 rounded-t-lg bg-rose-500 text-rose-50 relative">
+          <div className="p-3 rounded-t-lg bg-green-500 text-green-50 relative">
             <div className="absolute top-0 right-0 p-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6 cursor-pointer hover:fill-rose-50 hover:stroke-rose-500"
+                className="h-6 w-6 cursor-pointer hover:fill-green-50 hover:stroke-green-500"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
