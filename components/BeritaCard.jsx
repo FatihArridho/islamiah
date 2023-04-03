@@ -15,7 +15,7 @@ export default function BeritaCard({berita}) {
         />
       </div>
       <div className="p-3">
-        <h2 className="font-bold text-lg md:text-xl text-rose-400 mb-3">
+        <h2 className="font-bold text-lg md:text-xl text-green-400 mb-3">
           <a href={link} target="_blank" rel="noopener noreferrer">
             {title}
           </a>
