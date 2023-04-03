@@ -25,7 +25,7 @@ export default function Quran() {
 
   return (
     <Layout name="Qur'an">
-      <h1 className="text-3xl font-bold text-rose-500 mb-3">Qur'an</h1>
+      <h1 className="text-3xl font-bold text-green-500 mb-3">Qur'an</h1>
 
       {loading && <Loading message="Memuat semua surah..." />}
       {error && (
