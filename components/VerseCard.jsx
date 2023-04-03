@@ -9,8 +9,8 @@ export default function VerseCard({verse, options}) {
 
   return (
     <div className="flex mb-4">
-      <div className="verse-number font-bold text-rose-500 mr-3">
-        <div className="sticky top-3 bg-rose-200 px-3 py-1.5 rounded-full">
+      <div className="verse-number font-bold text-green-500 mr-3">
+        <div className="sticky top-3 bg-green-200 px-3 py-1.5 rounded-full">
           {number.inSurah}
         </div>
       </div>
@@ -21,7 +21,7 @@ export default function VerseCard({verse, options}) {
 
         {/* Latin */}
         {displayLatin && (
-          <em className="text-rose-700/50 block mt-3">
+          <em className="text-green-700/50 block mt-3">
             {text.transliteration.en}
           </em>
         )}
