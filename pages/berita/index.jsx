@@ -28,7 +28,7 @@ export default function Berita() {
 
   return (
     <Layout name="Berita">
-      <h1 className="text-3xl font-bold text-rose-500 mb-3">Berita Islamic</h1>
+      <h1 className="text-3xl font-bold text-green-500 mb-3">Berita Islamic</h1>
 
       <p>Berikut ini adalah kumpulan berita-berita islamic.</p>
 
