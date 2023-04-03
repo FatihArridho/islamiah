@@ -93,7 +93,7 @@ export default function Tracker({callback}) {
     <>
       <button
         ref={autoTrackButton}
-        className="px-3 py-2 mt-3 rounded-lg bg-rose-500 text-rose-50"
+        className="px-3 py-2 mt-3 rounded-lg bg-green-500 text-green-50"
       >
         Lacak otomatis
       </button>
