@@ -8,9 +8,9 @@ export default function SurahCard({surah}) {
   return (
     <>
       {/* Card */}
-      <div className="shadow rounded-lg flex w-full hover:bg-rose-50 hover:shadow-md hover:scale-105 duration-300">
+      <div className="shadow rounded-lg flex w-full hover:bg-green-50 hover:shadow-md hover:scale-105 duration-300">
         <div>
-          <div className="px-2 md:px-3 lg:px-4 py-5 h-full text-2xl bg-rose-300 rounded-l-lg font-bold text-rose-50 flex justify-center items-center">
+          <div className="px-2 md:px-3 lg:px-4 py-5 h-full text-2xl bg-green-300 rounded-l-lg font-bold text-green-50 flex justify-center items-center">
             {number}
           </div>
         </div>
@@ -20,7 +20,7 @@ export default function SurahCard({surah}) {
               <div className="flex justify-between items-center">
                 <div className="flex items-center">
                   <div className="px-3 py-2.5">
-                    <h2 className="text-lg md:text-xl font-bold text-rose-400">
+                    <h2 className="text-lg md:text-xl font-bold text-green-400">
                       {name.transliteration.id}
                     </h2>
                     <h2 className="font-semibold text-sm md:text-base">
@@ -45,7 +45,7 @@ export default function SurahCard({surah}) {
               {numberOfVerses} ayat, surah {revelation.id}
             </div>
 
-            <div className="hover:text-rose-500">
+            <div className="hover:text-green-500">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5 cursor-pointer"
@@ -75,11 +75,11 @@ export default function SurahCard({surah}) {
       >
         <div>
           {/* Head */}
-          <div className="p-3 rounded-t-lg bg-rose-500 text-rose-50 relative">
+          <div className="p-3 rounded-t-lg bg-green-500 text-green-50 relative">
             <div className="absolute top-0 right-0 p-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6 cursor-pointer hover:fill-rose-50 hover:stroke-rose-500"
+                className="h-6 w-6 cursor-pointer hover:fill-green-50 hover:stroke-green-500"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
